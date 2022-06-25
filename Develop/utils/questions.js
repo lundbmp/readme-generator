@@ -132,7 +132,7 @@ const questions = [{
 },
 {
     type: 'input',
-    name: 'title',
+    name: 'test',
     message: 'What are some tests for your projects?',
     validate: nameInput => {
         if (nameInput) {
