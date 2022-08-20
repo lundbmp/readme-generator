@@ -107,7 +107,7 @@ const questions = [{
     type: 'list',
     name: 'liscense',
     message: 'What liscense are you using?',
-    choices: ['MIT', 'Apache', 'MPL', 'PD', 'CC0', 'GPL', 'AGPL', 'JRL', 'AFPL'],
+    choices: ['MIT'],
     validate: nameInput => {
         if (nameInput) {
             return true;

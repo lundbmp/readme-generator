@@ -14,7 +14,7 @@ function promptUser(questionArray) {
 async function init() {
     const userData = await promptUser(questions);
     const markDownData = await generateMarkdown(userData);
-    await fileWriter('README.md', markDownData);
+    fileWriter('README.md', markDownData);
     
     console.log(userData);
 };
